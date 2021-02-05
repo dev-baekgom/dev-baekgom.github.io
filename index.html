@@ -35,16 +35,12 @@
               </ul>
               <form class="d-flex">
                 <input class="form-control me-2 searchtext" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light" type="submit" onclick = "search()">Search</button>
+                <button class="btn btn-outline-light" type="submit">Search</button>
               </form>
             </div>
           </div>
     </nav>
     <script>
-      function search(){
-         var url = document.getElementsByClassName('searchtext').val();
-         location.href = "/search.html?query=" + url;
-      } 
     </script>
   </body>
 </html>
