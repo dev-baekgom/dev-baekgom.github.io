@@ -42,7 +42,7 @@
     </nav>
     <script>
       function search(){
-         var url = encodeURIComponent($("#searchtext").val());
+         var url = document.getElementsByClassName('searchtext').val();
          location.href = "/search.html?query=" + url;
       } 
     </script>
